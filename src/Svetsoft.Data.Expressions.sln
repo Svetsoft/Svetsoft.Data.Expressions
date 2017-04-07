@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Svetsoft.Data.Expressions.Shared", "Svetsoft.Data.Expressions.Shared\Svetsoft.Data.Expressions.Shared.shproj", "{B305748B-690C-43C9-95C7-81501FD0DF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svetsoft.Data.Expressions", "Svetsoft.Data.Expressions\Svetsoft.Data.Expressions.csproj", "{1065E620-9C90-461F-AB89-E32478E65DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svetsoft.Data.Expressions.Tests", "Svetsoft.Data.Expressions.Tests\Svetsoft.Data.Expressions.Tests.csproj", "{94AB4885-49BD-435C-A3C8-C33D6263C8A8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Svetsoft.Data.Expressions.Shared\Svetsoft.Data.Expressions.Shared.projitems*{1065e620-9c90-461f-ab89-e32478e65dda}*SharedItemsImports = 4
+		Svetsoft.Data.Expressions.Shared\Svetsoft.Data.Expressions.Shared.projitems*{b305748b-690c-43c9-95c7-81501fd0df9f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1065E620-9C90-461F-AB89-E32478E65DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1065E620-9C90-461F-AB89-E32478E65DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1065E620-9C90-461F-AB89-E32478E65DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1065E620-9C90-461F-AB89-E32478E65DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AB4885-49BD-435C-A3C8-C33D6263C8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AB4885-49BD-435C-A3C8-C33D6263C8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AB4885-49BD-435C-A3C8-C33D6263C8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AB4885-49BD-435C-A3C8-C33D6263C8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

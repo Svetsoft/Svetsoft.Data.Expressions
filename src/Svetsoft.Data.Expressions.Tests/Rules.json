@@ -1,0 +1,107 @@
+﻿{
+  "Classification": "SportUtilityVehicle",
+  "Rules": [
+    {
+      "Name": "transactionfee_is_5_percent",
+      "Active": true,
+      "Conditions": [
+        {
+          "LogicalOperation": "And",
+          "Conditions": [
+            {
+              "FieldName": "WheelCount",
+              "Operation": "LessThanOrEqual",
+              "Value": "2"
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "FieldName": "WheelCount",
+          "Operation": "Assign",
+          "Data": "100"
+        }
+      ]
+    },
+    {
+      "Name": "drm_is_watermarking",
+      "Active": true,
+      "Conditions": [
+        {
+          "LogicalOperation": "Or",
+          "Conditions": [
+            {
+              "FieldName": "WheelCount",
+              "Operation": "Equal",
+              "Value": "1"
+            },
+            {
+              "FieldName": "WheelCount",
+              "Operation": "LessThan",
+              "Value": "4"
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "FieldName": "WheelCount",
+          "Operation": "Assign",
+          "Data": "200"
+        }
+      ]
+    },
+    {
+      "Name": "drm_is_digital_drm",
+      "Active": true,
+      "Conditions": [
+        {
+          "LogicalOperation": "Or",
+          "Conditions": [
+            {
+              "FieldName": "WheelCount",
+              "Operation": "Equal",
+              "Value": "3"
+            },
+            {
+              "FieldName": "WheelCount",
+              "Operation": "LessThan",
+              "Value": "8"
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "FieldName": "WheelCount",
+          "Operation": "Assign",
+          "Data": "300"
+        }
+      ]
+    },
+    {
+      "Name": "transactionfee_should_lessthan_10",
+      "Active": true,
+      "Conditions": [
+        {
+          "LogicalOperation": "And",
+          "Conditions": [
+            {
+              "FieldName": "WheelCount",
+              "Operation": "GreaterThan",
+              "Value": "1000"
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "FieldName": "WheelCount",
+          "Operation": "Assign",
+          "Data": "400"
+        }
+      ]
+    }
+  ]
+}

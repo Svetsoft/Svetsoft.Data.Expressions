@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b305748b-690c-43c9-95c7-81501fd0df9f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Svetsoft.Data.Expressions.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Dynamic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ExpressionOperator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ICondition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogicalOperator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectTypeConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Rule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RuleAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RuleCondition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RuleEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VariableEvaluation.cs" />
+  </ItemGroup>
+</Project>
