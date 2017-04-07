@@ -2,7 +2,7 @@
   "Classification": "SportUtilityVehicle",
   "Rules": [
     {
-      "Name": "transactionfee_is_5_percent",
+      "Name": "Rule1",
       "Active": true,
       "Conditions": [
         {
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "Name": "drm_is_watermarking",
+      "Name": "Rule2",
       "Active": true,
       "Conditions": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "Name": "drm_is_digital_drm",
+      "Name": "Rule3",
       "Active": true,
       "Conditions": [
         {
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "Name": "transactionfee_should_lessthan_10",
+      "Name": "Rule4",
       "Active": true,
       "Conditions": [
         {
