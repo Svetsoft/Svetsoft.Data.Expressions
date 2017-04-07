@@ -8,7 +8,7 @@
     <owners>jfevia</owners>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/Svetsoft/Svetsoft.Data.Expressions</projectUrl>
-    <iconUrl>https://github.com/Svetsoft/Svetsoft.Data.Expressions/blob/master/src/NuGet/NuGet_Icon.png</iconUrl>
+    <iconUrl>http://i.imgur.com/Sbn1cmO.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>Initial release</releaseNotes>
     <description>Expressions for .NET that include a XML-based Rules Engine</description>
